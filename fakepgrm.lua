@@ -1,9 +1,9 @@
 local d2clist = {
     c1 = colors.gray,
     c2 = colors.lime,
-    c3 = colors.green
+    c3 = colors.green,
     c4 = colors.lime,
-    c5 = colors.green
+    c5 = colors.green,
     c6 = colors.green
 }
 local function d2c(digit)

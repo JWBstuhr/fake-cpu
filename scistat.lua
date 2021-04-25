@@ -255,17 +255,17 @@ local function s10c()
         sleep(math.random(1,5))
         if stat.s10.t > 99999999999 then
             stat.s10.t = 0
-            stat.s10.m = "Available Funds: $" .. stat.s8.t
+            stat.s10.m = "Available Funds: $" .. stat.s10.t
             stat.s10.c = 8
         end
         if math.random(1,3) == 2 then
             stat.s10.t = stat.s10.t + math.random(-5,-1)
             stat.s10.c = 5
-            stat.s10.m = "Available Funds: $" .. stat.s8.t
+            stat.s10.m = "Available Funds: $" .. stat.s10.t
         else
             stat.s10.t = stat.s10.t + math.random(1,10)
             stat.s10.c = 8
-            stat.s10.m = "Available Funds: $" .. stat.s8.t
+            stat.s10.m = "Available Funds: $" .. stat.s10.t
         end
     end
 end
